@@ -1,7 +1,6 @@
 # code your #valid_move? method her
 def valid_move?(board, index)
-  input = board[0, 8]
-  if !(position_taken?(board, index) && (input == board[0, 8]))
+  if
     true
   else
     false
